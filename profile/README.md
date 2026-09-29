@@ -1,58 +1,78 @@
+<p align="center"><img src="assets/readme-banner.svg" alt="Nagare" width="100%"></p>
+
 # Project Nagare
 
-**An open, programmable operating system for a fully digital bank.**
+**A bank, composed.**
 
-Nagare asks a simple question:
+Project Nagare is an open, programmable operating system for a fully digital bank.
 
-> If a bank were built from zero today — without branch-era assumptions, legacy core constraints, monolithic banking software, or AI bolted on after the fact — what would it look like?
+We are asking what banking would look like if the institution were designed from zero today: no branch-era architecture, no monolithic CBS assumption, no AI bolted on later, and no reason for internal banking software to feel decades behind consumer software.
 
-We are building that stack from first principles.
+## The idea
 
-## The core ideas
+Nagare is being built as:
 
-- **The bank is the branch.**
-- **Everything is a plugin.**
-- **The kernel stays small.**
-- **Financial truth is deterministic.**
-- **AI is an actor — and AI actors are plugins.**
-- **Permissions are task-level.**
-- **External applications and financial infrastructure connect through plugins.**
-- **Simulation and production share one architecture.**
-- **Consumer and Business are independently deployable bank distributions.**
-- **Institutional is the bank's own operating view.**
-- **Internal banking software should be as carefully designed as consumer software.**
-- **All major Project Nagare decisions are logged centrally in nagare-home.**
+- a tiny plugin-first banking kernel;
+- stable contracts and replaceable banking capabilities;
+- independently deployable Consumer and Business bank distributions;
+- an Institutional operating surface for the bank itself;
+- a continuously running synthetic bank;
+- a synthetic external financial ecosystem, Nagare World;
+- a hosted sandbox where builders can use a complete fake bank;
+- and a bank-in-waiting that can move from synthetic integrations to production integrations without changing its fundamental architecture.
 
-## What we are building
+## The rules
 
-Nagare is intended to become:
+**The bank is the branch.**
 
-- a digital-bank operating system
-- a continuously running synthetic bank
-- a synthetic external financial ecosystem
-- Consumer and Business banking distributions
-- Institutional banking systems for treasury, risk, finance, compliance, fraud and operations
-- a hosted sandbox where builders can use a complete fake bank
-- a bank-in-waiting that can move from simulated integrations to production integrations without changing its fundamental architecture
+**Everything is a plugin.**
+
+**The kernel stays small.**
+
+**Money is deterministic.**
+
+**AI is an actor, and AI actors are plugins.**
+
+**Permissions are task-level.**
+
+**External applications and infrastructure connect through contracts and adapters.**
+
+**Simulation and production share one architecture.**
+
+**Consumer and Business are independently deployable.**
+
+**Institutional is the bank's view of itself.**
+
+**Internal banking software deserves consumer-grade UX.**
+
+## The living bank
+
+Nagare Bank should be alive before it is licensed.
+
+Synthetic customers, businesses, merchants and employers generate activity continuously. Payments settle, loans age, businesses run payroll, customers default, fraud alerts fire, treasury positions move and operational queues fill.
+
+Nagare World supplies the surrounding bureaus, registries, payment rails and other third parties.
+
+No AI is required for the world to run. AI actors operate within it under the same identity, permission, policy and audit model as human actors.
 
 ## Repositories
 
 ### [nagare-home](https://github.com/projectnagare/nagare-home)
-The central idea home: Constitution, architecture, major decisions, RFCs, roadmap and project vocabulary.
+The central idea home. Start with the Thesis, Constitution and Architecture Report. All major cross-project decisions live here.
 
 ### [nagare-design-system](https://github.com/projectnagare/nagare-design-system)
-Nagare's visual system, tokens, icons, UI packages and design study.
+Nagare's visual system: Paper, Ink, Blossom and ma — plus tokens, icons, UI packages, product boards and the full design study.
 
-More repositories will appear as clear capability boundaries emerge. We deliberately avoid creating empty repositories simply to mirror an architecture diagram.
+More repositories will appear when capability boundaries are real. We deliberately avoid creating empty repositories simply to mirror an architecture diagram.
 
 ## Build philosophy
 
-Nagare is architecture-led.
+Nagare learns from mature banking systems such as Apache Fineract at the **domain** layer, while deliberately rethinking architecture and UX for a digital-only institution.
 
-New capabilities should be introduced behind stable contracts, implementations should remain replaceable, AI should never become a privileged path through the bank, and financial truth must remain deterministic.
+The long-term test is simple:
 
-The project is designed so that a synthetic deployment and a future licensed deployment can share the same banking architecture.
+> Can the same bank run against a synthetic world today and real financial infrastructure tomorrow?
 
 ---
 
-Project Nagare is an experimental open-source banking project. It is not a licensed bank and does not provide real banking services.
+Project Nagare is experimental and open-source. It is not a licensed bank and does not provide real banking services.
