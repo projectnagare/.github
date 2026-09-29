@@ -8,6 +8,16 @@ Project Nagare is an open, programmable operating system for a fully digital ban
 
 We are asking what banking would look like if the institution were designed from zero today: no branch-era architecture, no monolithic CBS assumption, no AI bolted on later, and no reason for internal banking software to feel decades behind consumer software.
 
+## What “Nagare” means
+
+**Nagare (流れ)** means **flow** — the movement or course of something through a system.
+
+That is the project in one word.
+
+Money flows. Information flows. Payments settle. Credit moves through decisions. Work passes between people, systems and AI actors. A modern bank should make those flows programmable, observable and composable rather than burying them inside monolithic software.
+
+The visual identity follows the same idea: **Paper, Ink, Blossom and ma** — calm ground, precise record, a restrained moment of arrival, and deliberate space.
+
 ## The idea
 
 Nagare is being built as:
